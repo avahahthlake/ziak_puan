@@ -60,4 +60,5 @@ Examples of binary files are...
   1. sequential -> records stored one after another ***in order***
   2. heap -> records places wherever space is available
   3. direct -> using hash functions to calculate storage address for random and quick accessing, fast but chance of collisions
-  4. 
+  4. indexed-sequential -> records stored in order but uses indexed files for fast lookup
+  5. b+ trees -> a tree structure for efficient searching/insertion/deletion

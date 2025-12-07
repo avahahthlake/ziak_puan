@@ -71,6 +71,32 @@ Here is the algorithm to traverse a simple linked list
      if yes, make the current->next = current->next->next and free the memory.
 
      else, update the current node to the next and do the above process (from step 2) till the last node.
-
 ```
 
+
+# 👯 Doubly Linked List 👯
+Doubly Linked List is a data structure made of nodes where each node consist of...
+  * a data element
+  * a left pointer that points to the previous node
+  * a right pointer that points to the next node
+
+![doubly-ll](assets/doubly-ll.png)
+
+# 🛞 Circular Linked List ⭕
+Circular Linked List is a dynamic data structure where...
+***the last node points back to the first node***
+
+![circular-ll](assets/circular-ll.png)
+
+# 😶‍🌫 Header Linked List 😶‍🌫
+A header linked list is a special type of linked list
+with a header node at the start instead of a normal head node.
+***It simplifies insertions/deletions by providing a fixed entry point***
+
+
+
+# 🖇️ Linked Lists Applications 🖇️
+### 🍥 Stacks using linked list 🍥
+### 🍥 Queues using linked list 🍥
+### 🍥 Polynomials 🍥
+### 🍥 Sparse Matrix Representation 🍥

@@ -2,7 +2,7 @@
 
 How insertion-sort works...
 
-![insertion-sort](assets/insertion-sort-gif.png)
+![insertion-yeah](assets/insertion-yeah.png)
 
 # Radix-sort
 

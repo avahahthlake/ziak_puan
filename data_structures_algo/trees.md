@@ -216,5 +216,20 @@ struct Node* insert(struct Node* root, int data) {
 
 
 
-### 🧵 Threaded binary trees 🧵
+# 🧵 Threaded binary trees 🧵
+A threaded binary tree is a variant of a normal binary tree where the NULL pointers
+are replaced with special links (called 🧵THREADS)
+*that points to the node's inorder predecessor or successor*  
+This modification enables more efficient traversals (especially inorder traversals)
+***without requiring a stack or recursion***
+
+#### Working of threaded binary tree
+  * If node has a right NULL child pointer, it is made to point to the node's inorder successor
+  * If node has a left NULL child pointer, it is made to point to the node's inorder predecessor
+  * Boolean flags, to know if the node is a threaded node or not...
+
+
+# 📐 Construction and eval of expr Tree 📏
+ 
+![expr-tree](assets/expr-tree.png)
 

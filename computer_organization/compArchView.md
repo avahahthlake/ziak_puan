@@ -1,1 +1,0 @@
-# Computer architect's view 🗼

@@ -7,10 +7,10 @@
 A digital computer is based on five main functional units
 
 * input unit -> The input unit takes data and instruction from the external world through input devices like keyboards, mouse, and other peripherals
-  * output unit -> This output unit presents the results of the computer's processing to the user through devices such as monitors or printers
-  * memory unit -> This stores instruction and data. It includes primary memory and secondary memory
-  * arithmetic and logic unit -> This part of the computer performs all logical and arithmetic operations
-  * control unit -> This unit directs the entire control flow of the computer.
+* output unit -> This output unit presents the results of the computer's processing to the user through devices such as monitors or printers
+* memory unit -> This stores instruction and data. It includes primary memory and secondary memory
+* arithmetic and logic unit -> This part of the computer performs all logical and arithmetic operations
+* control unit -> This unit directs the entire control flow of the computer.
 
 ### Computer - A general purpose machine 📠
 

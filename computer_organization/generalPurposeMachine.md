@@ -45,6 +45,14 @@ functional blocks like adders, subtractors, etc.
 ### Classification of computers and their instructions
 ### Simple RISC Computer (SRC)
 
-
+# 🫙 Stored program concept
+  * This was proposed by John Von Neuman
+  * It is a concept, a fundamental idea that a computer's instruction and the
+  data it processes are kept together in the same read-write memory.
+  * This allows the computer to be reprogrammed without having to change
+  the hardware.
+  * So, a single machine is capable of running different programs that range from
+  entertainment software like games all the way to scientific calculation tools,
+  etc.
 
 

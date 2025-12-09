@@ -1,10 +1,12 @@
 # 🍔 Stack 📚
+
 A stack is an abstract data type that serves as a collection of elements
 with two operations -> push and pop. A stack uses the Last In First Out (*LIFO*) policy.
 
 ![stacks](assets/stacks.png)
 
-### Array implementation of stacks
+## Array implementation of stacks
+
 ```c
 #define MAX 5
 int stack[MAX];
@@ -34,12 +36,15 @@ void pop() {
 }
 ```
 
-# Applications of stacks 🈸
+## Applications of stacks 🈸
+
 ### Polish Notation 💅 and reverse Polish Notation 💅🏿
+
 ***These eliminate parentheses and operator precedence issues***, thus making it
 easier for machines to do computations.
 
 This is how stacks help in evaluating Polish notation expressions...
+
 1. Read left to right... Process the expression one token at a time.
 2. Operand encountered... Push the number(operand) onto the stack
 3. Operator encountered...
@@ -49,6 +54,7 @@ This is how stacks help in evaluating Polish notation expressions...
 
 Here is an example of postfix (reverse Polish Notation expression) evaluation.
 Suppose we have the expression ... 3 4 + 2 *
+
 ```evaluation
 push 3 (stack = [3])
 push 4 (stack = [3, 4])
@@ -59,23 +65,26 @@ then result is 14
 ```
 
 ### Infix to prefix and infix to postfix conversion 👶
+
 *I need to deal with this later...* 💣
 
 ### How recursion uses the ***call-stack*** in a factorial()
+
 Each time a function (say factorial(n)) is called, a **stack-frame**
 containing its parameters, local variable and return address is pushed onto the stack.
 
 For a recursive function like factorial() this repeats till the base case is hit.
 
-  * recursive-calls...If n is greater than the base case factorial(n) calls factorial(n-1). This new call pushes another stack-frame onto the stack, effectively pausing the execution of the previous call. The process continues, with each recursive call adding a new frame until the base case is reached.
-  * base case and unwinding... When base case is reached (say n = 0), the function returns a value, this return causes the topmost stack-frame to be popped off the stack.
-  * returning values and calculation ...As each stack frame is popped, the execution of the calling function resumes from where it is left off. The return-value from the deeper call is then used in the calculation of the current call (e.g. n*factorial(n-1), ...)
-  * this popping of stack-frame continues until the initial stack-frame is reached and finally...
-  * the return value happens...
+* recursive-calls...If n is greater than the base case factorial(n) calls factorial(n-1). This new call pushes another stack-frame onto the stack, effectively pausing the execution of the previous call. The process continues, with each recursive call adding a new frame until the base case is reached.
+* base case and unwinding... When base case is reached (say n = 0), the function returns a value, this return causes the topmost stack-frame to be popped off the stack.
+* returning values and calculation ...As each stack frame is popped, the execution of the calling function resumes from where it is left off. The return-value from the deeper call is then used in the calculation of the current call (e.g. n*factorial(n-1), ...)
+* this popping of stack-frame continues until the initial stack-frame is reached and finally...
+* the return value happens...
 
 ![stack-frame-factorial](assets/stack-frame-factorial.png)
 
 ### Fibonacci in C 😊
+
 ```c
 #include <stdio.h>
 int getFib(int n) {
@@ -96,6 +105,7 @@ int main() {
 ```
 
 ### Tower of Hanoi in C 🤗
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>

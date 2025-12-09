@@ -1,14 +1,16 @@
 # 🖇️ Linked list 🖇️
+
 A linked list is a type of data structure that uses nodes.
 In a simple linked list, a node consist of *data* and *a pointer to the next node*
 
 ![linked-list](assets/linked-list.png)
 
-### 📝 Representation of linked list in memory...🪦
+## 📝 Representation of linked list in memory...🪦
 
 ![linked-memory](assets/linked-mem.png)
 
-# 🖇Linked list definition using node 🖇
+## 🖇Linked list definition using node 🖇
+
 ```c
 struct Node {
   int data;
@@ -16,9 +18,10 @@ struct Node {
 };
 ```
 
-# 🍉 Operations on linked list 🍉
+## 🍉 Operations on linked list 🍉
 
 ## Traversals
+
 Here is the algorithm to traverse a simple linked list
 
 ```algorithm
@@ -31,8 +34,11 @@ Here is the algorithm to traverse a simple linked list
 4. Do the above process until we reach the end.
 
 ```
+
 ## Insertions
-#### at beginning
+
+### at beginning
+
 ```algorithm
 1. Declare a head pointer and make it as NULL.
 
@@ -43,7 +49,9 @@ Here is the algorithm to traverse a simple linked list
 4. Finally, make the new node as the head node.
 
 ```
-#### at the end
+
+### at the end
+
 ```algorithm
 1. Declare head pointer and make it NULL.
 
@@ -59,6 +67,7 @@ Here is the algorithm to traverse a simple linked list
 ```
 
 ## Deletion
+
 ```c
 1. If the head node has the given key,
 
@@ -73,30 +82,35 @@ Here is the algorithm to traverse a simple linked list
      else, update the current node to the next and do the above process (from step 2) till the last node.
 ```
 
+## 👯 Doubly Linked List 👯
 
-# 👯 Doubly Linked List 👯
 Doubly Linked List is a data structure made of nodes where each node consist of...
-  * a data element
-  * a left pointer that points to the previous node
-  * a right pointer that points to the next node
+
+* a data element
+* a left pointer that points to the previous node
+* a right pointer that points to the next node
 
 ![doubly-ll](assets/doubly-ll.png)
 
-# 🛞 Circular Linked List ⭕
+## 🛞 Circular Linked List ⭕
+
 Circular Linked List is a dynamic data structure where...
 ***the last node points back to the first node***
 
 ![circular-ll](assets/circular-ll.png)
 
-# 😶‍🌫 Header Linked List 😶‍🌫
+## 😶‍🌫 Header Linked List 😶‍🌫
+
 A header linked list is a special type of linked list
 with a header node at the start instead of a normal head node.
 ***It simplifies insertions/deletions by providing a fixed entry point***
 
+## 🖇️ Linked Lists Applications 🖇️
 
-
-# 🖇️ Linked Lists Applications 🖇️
 ### 🍥 Stacks using linked list 🍥
+
 ### 🍥 Queues using linked list 🍥
+
 ### 🍥 Polynomials 🍥
+
 ### 🍥 Sparse Matrix Representation 🍥

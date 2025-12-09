@@ -7,9 +7,10 @@ The CPU uses this *fetch-execute-cycle* to run programs by repeatedly
 fetching an instruction from memory, decoding it and executing it.
 
 There are 3 main stages
-  * Fetch -> CPU gets next instruction from memory as directed by the
+
+* Fetch -> CPU gets next instruction from memory as directed by the
   Program Counter (PC).
-  * Decode -> The CPU interprets the instruction to understand what
+* Decode -> The CPU interprets the instruction to understand what
   action needs to be performed. It identifies any required data for the
   operation
-  * Execute -> CPU performs action as specified by the instruction
+* Execute -> CPU performs action as specified by the instruction

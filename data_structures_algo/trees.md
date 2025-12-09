@@ -5,9 +5,7 @@ that resembles a tree.
 
 ![non-binary-tree](assets/non-binary-tree.png)
 
-
-
-# 🍉 terminology 🍉
+## 🍉 terminology 🍉
 
   1. Node -> A fundamental element in a tree that holds data and links to other nodes
   2. Root -> Topmost node in a tree
@@ -22,44 +20,41 @@ that resembles a tree.
   11. Subtree -> A portion of a tree that is itself a tree
   12. Level -> Distance of a node from a root (root is at level 0)
   13. Height -> Max level of any node in a tree
-  14. Degree of a node -> The number of children a node has 
-  15. Degree of a tree -> The maximum degree among all nodes of a tree 
+  14. Degree of a node -> The number of children a node has
+  15. Degree of a tree -> The maximum degree among all nodes of a tree
   16. Path -> A sequence of edges connecting two nodes
   17. Forest -> A collection of disjoint trees
 
-
-
-# ♀️ Binary 🪾 Trees ♂️
+## ♀️ Binary 🪾 Trees ♂️
 
 A binary tree is basically a tree where each node has two children maximum
 
-#### properties
+### properties
+
 Core properties
+
   1. Max two children -> Each node has zero/one/two children (left and right)
   2. A single starting root
   3. Each node has only 1 parent
 
 ![binary-tree](assets/binary-tree.png)
 
+## 🫠 Array representation of a binary-tree 🫠
 
-
-# 🫠 Array representation of a binary-tree 🫠
-  * root node is at index 0
-  * for any node stored at index *i*
-    * it's left child is at index 2 * *i* + 1
-    * it's right child is at index 2 * *i* + 2
-  * the parent of a node at index *i* can be found using (*i* - 1) // 2
-
+* root node is at index 0
+* for any node stored at index *i*
+  * it's left child is at index 2 * *i* + 1
+  * it's right child is at index 2 * *i* + 2
+* the parent of a node at index *i* can be found using (*i* - 1) // 2
 
 ![arr-bin-tree-yeah](assets/arr-bin-tree-yeah.png)
 
-
-
-# 🔗 Linked representation of a binary-tree 🔗
+## 🔗 Linked representation of a binary-tree 🔗
 
 A linked representation of a binary-tree uses nodes connected by pointers.
 
 A node definition in C language looks something like this...
+
 ```c
 struct Node {
   int data;
@@ -70,12 +65,10 @@ struct Node {
 
 ![linked-bin-yeah](assets/linked-bin-yeah.png)
 
+## 🚃 Binary tree traversals
 
+### 🚅 Inorder
 
-# 🚃 Binary tree traversals
-
-
-### 🚅 Inorder 
 ```c
 // inorder traversal
 void inorder(struct Node* root) {
@@ -92,9 +85,11 @@ void inorder(struct Node* root) {
   inorder(root->right);
 }
 ```
+
 ![inorder-yeah](assets/inorder-yeah.png)
 
-### 🚇 Preorder 
+### 🚇 Preorder
+
 ```c
 // preorder traversal
 void preorder(struct Node* root) {
@@ -111,9 +106,11 @@ void preorder(struct Node* root) {
   preorder(root->right);
 }
 ```
+
 ![preorder-yeah](assets/preorder-yeah.png)
 
-### 🚤 Postorder 
+### 🚤 Postorder
+
 ```c
 // postorder traversal
 void postorder(struct Node* root) {
@@ -130,22 +127,22 @@ void postorder(struct Node* root) {
   printf("%d ", root->data);
 }
 ```
+
 ![postorder-yeah](assets/postorder-yeah.png)
 
+## 🌓 Binary search tree 🌗
 
-
-# 🌓 Binary search tree 🌗
 A binary search tree is a specific type of binary tree where
-  * left child's data is always less than root's data
-  * right child's data is always greater than root's data
+
+* left child's data is always less than root's data
+* right child's data is always greater than root's data
 
 ![binary-search-tree](assets/binary-search-tree.png)
 
-
-
-# 😡 Additional binary tree operations 😡
+## 😡 Additional binary tree operations 😡
 
 ### 🔪 Deletion 🔪
+
 ```c
 int getRightMin(struct Node* root) {
   struct Node* temp = root;
@@ -192,6 +189,7 @@ struct Node* removeNode(struct Node* root, int data) {
 ```
 
 ### 😚 Insertion 😚
+
 ```c
 // insert function
 struct Node* insert(struct Node* root, int data) {
@@ -214,22 +212,20 @@ struct Node* insert(struct Node* root, int data) {
 }
 ```
 
+## 🧵 Threaded binary trees 🧵
 
-
-# 🧵 Threaded binary trees 🧵
 A threaded binary tree is a variant of a normal binary tree where the NULL pointers
 are replaced with special links (called 🧵THREADS)
 *that points to the node's inorder predecessor or successor*  
 This modification enables more efficient traversals (especially inorder traversals)
 ***without requiring a stack or recursion***
 
-#### Working of threaded binary tree
-  * If node has a right NULL child pointer, it is made to point to the node's inorder successor
-  * If node has a left NULL child pointer, it is made to point to the node's inorder predecessor
-  * Boolean flags, to know if the node is a threaded node or not...
+### Working of threaded binary tree
 
+* If node has a right NULL child pointer, it is made to point to the node's inorder successor
+* If node has a left NULL child pointer, it is made to point to the node's inorder predecessor
+* Boolean flags, to know if the node is a threaded node or not...
 
-# 📐 Construction and eval of expr Tree 📏
- 
+## 📐 Construction and eval of expr Tree 📏
+
 ![expr-tree](assets/expr-tree.png)
-

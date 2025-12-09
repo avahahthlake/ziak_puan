@@ -1,9 +1,11 @@
 # 🐈‍⬛ Queues 🐩
+
 Queues are abstract data types that are linear in nature. They follow a first in first out
 policy. It has two ends, front(head) and rear(tail). And it can perform two basic insertion/
 deletion operation, namely *enqueue* and *dequeue* 
 
-# 😁 Queue implementation in c using arrays
+## 😁 Queue implementation in c using arrays
+
 ``` c
 #define MAX 5
 int queues[MAX];
@@ -42,27 +44,29 @@ void dequeue() {
 }
 ```
 
-# 🎪 Circular queue
+## 🎪 Circular queue
+
 A circular queue is linear data structure that is basically a queue.
 But it's rear is connected to its front.
 
-  * Why do we need it?
+* Why do we need it?
 We need a circular queue because it solves a memory-waste problem, found
 in normal queues
-  * Circular queues allow element insertion and deletion to wrap around the
+* Circular queues allow element insertion and deletion to wrap around the
   array's boundaries.
 
 ![circular-array](assets/circular-array.png)
 
+## 🙃 Deques - Double ended queues 👻
 
-# 🙃 Deques - Double ended queues 👻
 A deque **aka** double-ended queue is a *flexible* data structure that allows
 insertion and deletion from both ends.
 Usually, it is implemented using circular-array and linked-list(double ended)
 
 ![deque](assets/deque.png)
 
-# 🙋 Priority queue 🤭
+## 🙋 Priority queue 🤭
+
 A priority queue is a queue in which each element has an associated priority
 which determines its order of service. The priority queue serves highest priority
 items first.

@@ -1,3 +1,1 @@
 # Computer architect's view 🗼
-
-

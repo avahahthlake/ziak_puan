@@ -267,3 +267,61 @@ script function to print an integer with commas as thousands separators.
 (+, ,/,*and %) from an HTML page and returns the result page with the
 operation performed on the operands. b. Write PHP program how to send
 mail using PHP.
+
+## Mathematics
+
+### ➕➖➗1
+
+Sets in a complex plane - Functions of a complex variables. Limit, Continuity and
+differentiability (definitions only). Analytic function - Riemann equations in Cartesian and polar forms. Harmonic functions, Constructions of analytic functions (Cartesian and polar
+forms). Line integral - - function and for derivatives, Conformal transformations: and .
+Bilinear transformations.
+
+### ➕➖➗2
+
+Power series, convergence, radius of convergence, Taylor's and Laurent's theorems
+(Statements only) Singularities. Poles Calculation of residues. Residue theorem (without proof) problems. Evaluation of Contour integrals
+
+### ➕➖➗3
+
+Numerical solution of algebraic and transcendental equations-solution by Bisection, Ramanujan method, linear iteration and Newton-Raphson methods. Solution of linear
+simultaneous equations: Gauss elimination method, Gauss Jordan method, Gauss Seidel
+methods, LU decomposition method, methods of Crout, Doolittle and Cholesky.
+
+### ➕➖➗4
+
+Finite differences (Forward and backward differences), Interpolation, Newtons forward and backward interpolation formulae, Central difference formulae: stirlings and Bessels formula. Interpolation with unequal spaced points: Lagarange interpolation formula, and inverse interpolation formulae. Divided differences and their properties: Newtons general interpolation formula. Interpolation by iteration, Numerical differentiation using Newtons forward and
+backward interpolation formulae, Numerical integration: Trapezoidal method, Simpson 1/3
+rule Simpons3/8th rule.
+
+### ➕➖➗5
+
+Numerical solution of ordinary differential equations. Solutions by Taylor's series, Picard's method of successive approximation, modifiend Euler's method, Runge Kutta methods of second and fourth order, Predictor and corrector methods - Adams - Bashforth method, Adams-Moultons method.
+
+## Constitution of India and Professional Ethics
+
+### 😎1
+
+Preamble to the Constitution of India. Fundamental rights under Part-III-details of Exercise of
+rights, Limitations & Important case laws.
+
+### 😎2
+
+Relevance of Directive principles of State Policy under Part-IV, Fundamental Duties & their
+significance.
+
+### 😎3
+
+Union Executive President, Prime Minister, Parliament & the Supreme Court of India.
+State Executive Governors, Chief Minister, State Legislator and High Courts.
+
+### 😎4
+
+Constitutional Provisions for Scheduled Castes & Tribes, Women & Children & Backward
+classes; Emergency Provisions; Electoral process; Amendment procedure; Latest Important
+Constitutional amendments
+
+### 😎5
+
+Scope & aims of engineering ethics, Responsibility of Engineers; Impediments to
+responsibility; Honesty, Integrity and reliability, risks, safety & liability in engineering.

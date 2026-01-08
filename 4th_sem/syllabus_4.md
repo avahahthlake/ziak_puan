@@ -246,7 +246,7 @@ LAB PROGRAMS
 1. Create a table to show your class time table.
 2. Use tables to provide layout to your HTML page describing your college
 infrastructure.
-3. Use <span> and <div> tags to provide a layout to the above page instead of
+3. Use span and div tags to provide a layout to the above page instead of
 a table layout.
 4. Use frames such that page is divided into 3 frames 20% on left to show
 contents of pages, 60% in center to show body of page, remaining on right

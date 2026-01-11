@@ -177,28 +177,30 @@ from the system and display it in the standard format on the screen.
 and logical operations (Demonstrate with the help of a suitable program).
 7. To write and simulate C Programs for ARM microprocessor using KEIL
 (Demonstrate with the help of a suitable program)
+
 HARDWARE PROGRAMS: PART B
-8. Design and develop an assembly program to demonstrate BCD Up-Down Counter
+
+1. Design and develop an assembly program to demonstrate BCD Up-Down Counter
 (00-99) on the Logic Controller Interface.
-9. Design and develop an assembly program to read the status of two 8-bit inputs (X &
+2. Design and develop an assembly program to read the status of two 8-bit inputs (X &
 Y) from the Logic Controller Interface and display X*Y.
-10. Design and develop an assembly program to display messages “FIRE” and “HELP”
+3. Design and develop an assembly program to display messages “FIRE” and “HELP”
 alternately with flickering effects on a 7-segment display interface for a suitable
 period of time. Ensure a flashing rate that makes it easy to read both the messages
 (Examiner does not specify these delay values nor is it necessary for the student to
 compute these values).
-11. Design and develop an assembly program to drive a Stepper Motor interface and
+4. Design and develop an assembly program to drive a Stepper Motor interface and
 rotate the motor in specified direction (clockwise or counter-clockwise) by N steps
 (Direction and N are specified by the examiner). Introduce suitable delay between
 successive steps. (Any arbitrary value for the delay may be assumed by the student).
-12. Design and develop an assembly language program to generate the Sine Wave using
+5. Design and develop an assembly language program to generate the Sine Wave using
 DAC interface (The output of the DAC is to be displayed on the CRO).
-13. Design and develop an assembly language program to generate a Half Rectified Sine
+6. Design and develop an assembly language program to generate a Half Rectified Sine
 waveform using the DAC interface. (The output of the DAC is to be displayed on the
 CRO).
-14. To interface LCD with ARM processor-- ARM7TDMI/LPC2148. Write and execute
+7. To interface LCD with ARM processor-- ARM7TDMI/LPC2148. Write and execute
 programs in C language for displaying text messages and numbers on LCD
-15. To interface Stepper motor with ARM processor-- ARM7TDMI/LPC2148. Write a
+8. To interface Stepper motor with ARM processor-- ARM7TDMI/LPC2148. Write a
 program to rotate stepper motor.
 
 ## UNIX System Programming Laboratory

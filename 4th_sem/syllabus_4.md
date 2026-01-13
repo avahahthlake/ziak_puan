@@ -219,27 +219,16 @@ processes and displays.
 5. Demonstrate producer and consumer problem using semaphores.
 6. Demonstrate round robin scheduling algorithm and calculates average waiting time and
 average turnaround time.
-7. Implement priority-based scheduling algorithm and calculates average waiting time and
-Course Code 21CCPC407L
-Category Professional Core Courses
-Course title Unix System Programming - Laboratory
-Scheme and
-Credits
-No. of Hours/Week
-Semester - IV CSE/ISEL T P SS Credits
-00 000 030 0 1
-CIE Marks: 50 SEE Marks: 50 Total Max. Marks: 100 Duration of SEE: 03 Hours
-Prerequisites (if any): 1. Programming in C and C++
-average turnaround time.
-8. Act as sender to send data in message queues and receiver that reads data from message
+7. Implement priority-based scheduling algorithm and calculates average waiting time and average turnaround time.
+1. Act as sender to send data in message queues and receiver that reads data from message
 queue.
-9. Where a parent writes a message to pipe and child reads message from pipe.
-10. Demonstrate setting up a simple web server and host website on your own Linux
+1. Where a parent writes a message to pipe and child reads message from pipe.
+2.  Demonstrate setting up a simple web server and host website on your own Linux
 computer.
-11. a. Create two threads using pthread, where both thread counts until 100 and joins later.
+1.  a. Create two threads using pthread, where both thread counts until 100 and joins later.
 b. Create two threads using pthreads. Here, main thread creates 5 other threads for 5
 times and each new thread print “Hello World” message with its thread number.
-12. Using Socket APIs establish communication between remote and local processes.
+1.  Using Socket APIs establish communication between remote and local processes.
 
 ## Web Design Laboratory
 

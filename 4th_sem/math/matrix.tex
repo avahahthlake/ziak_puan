@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+To solve system of equations
+\begin{align*}
+a_1 x + b_1 y + c_1 z &= d_1 \\
+a_2 x + b_2 y + c_2 z &= d_2 \\
+a_3 x + b_3 y + c_3 z &= d_3 
+\end{align*}
+
+$\Rightarrow$
+\[
+\begin{bmatrix}
+a_1 & b_1 & c_1 \\
+a_2 & b_2 & c_2 \\
+a_3 & b_3 & c_3
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y \\
+z
+\end{bmatrix}
+=
+\begin{bmatrix}
+d_1 \\
+d_2 \\
+d_3
+\end{bmatrix}
+\]
+
+\subsection*{I. Direct Method: Gauss Elimination method.}
+
+Given $Ax = B$.
+
+\begin{itemize}
+    \item[i)] Write $[A : B] = \left[ 
+    \begin{array}{ccc|c}
+    a_1 & b_1 & c_1 & d_1 \\
+    a_2 & b_2 & c_2 & d_2 \\
+    a_3 & b_3 & c_3 & d_3
+    \end{array} 
+    \right]$
+    
+    \item[ii)] Use row operation.
+    \[
+    [A : B] = \left[ 
+    \begin{array}{ccc|c}
+    a_1 & b_1 & c_1 & d_1 \\
+    0 & b_2 & c_2 & d_2 \\
+    0 & b_3 & c_3 & d_3
+    \end{array} 
+    \right]
+    \]
+    
+    \[
+    \left[ 
+    \begin{array}{ccc|c}
+    a_1 & b_1 & c_1 & d_1 \\
+    0 & b_2 & c_2 & d_2 \\
+    0 & 0 & c_3 & d_3
+    \end{array} 
+    \right]
+    \]
+    
+    \item[iii)] Convert to equation form \& then solve.
+\end{itemize}
+
+
+\section*{Gauss Jordan method. (Direct method)}
+
+\begin{enumerate}
+    \item Write augmented form.
+    \[
+    [A : B] = \left[ 
+    \begin{array}{ccc|c}
+    a_1 & b_1 & c_1 & d_1 \\
+    a_2 & b_2 & c_2 & d_2 \\
+    a_3 & b_3 & c_3 & d_3
+    \end{array} 
+    \right]
+    \]
+
+    \item Use row operation where:
+    \begin{itemize}
+        \item I help $R_1$
+        \item II help $R_2$
+        \item III help $R_3$
+    \end{itemize}
+
+    \item $[A : B] = \left[ 
+    \begin{array}{ccc|c}
+    1 & 0 & 0 & d_1^* \\
+    0 & 1 & 0 & d_2^* \\
+    0 & 0 & 1 & d_3^*
+    \end{array} 
+    \right]$
+\end{enumerate}
+
+\end{document}
+
